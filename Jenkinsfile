@@ -5,18 +5,18 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello world'
-                //Download the sample.html from git 
-                // Upload this file in one of the S3 bucket
+                echo '//Download the sample.html from git' 
+                echo '// Upload this file in one of the S3 bucket'
             }
         }
 stage('Deploy') 
 {
             steps {
                 echo 'Hello world'
-                //Login into the target machine 
-                //Go to the code reop
-                //Download Sample.html from S3
-                //Restart the jenkins service
+                echo '//Login into the target machine' 
+                echo '//Go to the code reop'
+                echo '//Download Sample.html from S3'
+                echo '//Restart the jenkins service'
 }
 }
 }
